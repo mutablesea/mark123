@@ -4,5 +4,6 @@ public class odd {
    
     public static void main(String[] args) {
         System.out.println("Odd");
+        System.out.println("Hello");
     }
 }

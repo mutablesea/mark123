@@ -9,10 +9,10 @@ public class odd {
         System.out.println("Enter your number: ");
         int num = scanner.nextInt();
 
-        if (num % 2 != 0) {
-            System.out.println("Your number is odd");
-        } else {
+        if (num % 2 == 0) {
             System.out.println("Even number taken");
+        } else {
+            System.out.println("Your number is odd");
         }
     }
 }

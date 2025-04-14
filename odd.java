@@ -1,12 +1,18 @@
 package mark123;
 
+import java.util.Scanner;
+
 public class odd {
    
     public static void main(String[] args) {
-        System.out.println("Odd");
-        System.out.println("Hello");
-        System.out.println("Hola");
-        System.out.println("I need more to learn");
-        System.out.println("hello i am here");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your number: ");
+        int num = scanner.nextInt();
+
+        if (num % 2 != 0) {
+            System.out.println("Your number is odd");
+        } else {
+            System.out.println("Even number taken");
+        }
     }
 }
